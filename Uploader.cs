@@ -52,6 +52,7 @@ namespace FileUploader
                 }
 
                 _isInProgress = false;
+                _completedPercentOfUploadProgress = 0;
 
                 return await Task.FromResult(true);
             }
@@ -92,6 +93,7 @@ namespace FileUploader
                 }
 
                 _isInProgress = false;
+                _completedPercentOfUploadProgress = 0;
 
                 return await Task.FromResult(true);
             }
